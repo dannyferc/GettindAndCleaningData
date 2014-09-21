@@ -51,3 +51,16 @@ Using the data described above, the aim of this project is:
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 ##Execution
+
+The file run_analysis.R follows the next algorithm:
+
+1. Load features and activity labels data
+2. Load subject, x and y data from training and test folders
+3. Name subject, x and y data variables 
+4. Create a new data frame merging x data from training and test
+5. Extract the from the new data frame the variables that includes mean or standard deviation
+6. Create a new data frame with the the data extracted
+7. Include the subject and the y data for training and test in the data frame created
+8. Calculate the average of each variable for each activity and each subject and insert the data in a variable called tidy
+9. Delete from tidy the variables that have no interest
+10. Write tidy into a text file
