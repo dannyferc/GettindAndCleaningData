@@ -12,7 +12,7 @@ This repository includes 5 files:
 
 ##Execution
 
-1. Unzip the file getdata-projectfiles-UCI HAR Dataset.zip
+1. Unzip the file **getdata-projectfiles-UCI HAR Dataset.zip**
 2. **Run_analysis.R** script and the **UCI HAR Dataset** folder must be in the same directory
 3. Edit the setwd line of the run_analysis.R script and add your own working directory
 4. Using RStudio, execute the script writting the command: **source("run_analysis.R")**
