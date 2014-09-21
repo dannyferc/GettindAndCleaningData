@@ -2,7 +2,7 @@
 
 ##Introduction
 
-This repository includes the 4 files:
+This repository includes 4 files:
 
 - README.md
 - CodeBook.md: file that describes the data, and any transformations or work performed
@@ -12,7 +12,7 @@ This repository includes the 4 files:
 ##Execution
 
 1. Unzip the data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
-2. Run_analysis.R script and the UCI HAR Dataset folder must be in the same directory
+2. **Run_analysis.R** script and the **UCI HAR Dataset** folder must be in the same directory
 3. Edit the setwd line of the run_analysis.R script and add your own working directory
-4. Execute the script using source("run_analysis.R")
-5. Check the tidy.txt file created with the desired data in your working directory
+4. Execute the script using **source("run_analysis.R")**
+5. Check the **tidy.txt** file created with the desired data in your working directory
