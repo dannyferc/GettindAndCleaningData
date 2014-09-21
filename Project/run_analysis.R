@@ -1,5 +1,5 @@
 #set working directory
-setwd("/Users/dfernandezcanon/Documents/Development/R/Project/Getting and cleaning data/Project")
+setwd("/Users/dfernandezcanon/Documents/Development/R/Project/GettindAndCleaningData/Project")
 
 #load features
 features <- read.table("./UCI HAR Dataset/features.txt")[,2]
