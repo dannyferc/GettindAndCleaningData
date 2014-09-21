@@ -14,5 +14,5 @@ This repository includes 4 files:
 1. Unzip the data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 2. **Run_analysis.R** script and the **UCI HAR Dataset** folder must be in the same directory
 3. Edit the setwd line of the run_analysis.R script and add your own working directory
-4. Execute the script using **source("run_analysis.R")**
+4. Using RStudio, execute the script writting the command: **source("run_analysis.R")**
 5. Check the **tidy.txt** file created with the desired data in your working directory
