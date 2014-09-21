@@ -1,3 +1,11 @@
+#download data.table
+list.of.packages <- c("data.table")
+new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
+if(length(new.packages)) install.packages(new.packages)
+
+#load data.table
+library(data.table)
+
 dtGDP <- data.table(read.csv("./Quizz4/GDP.csv", skip=4, nrows=215, stringsAsFactors=FALSE))
 
 dtGDP <- dtGDP[X != ""]
